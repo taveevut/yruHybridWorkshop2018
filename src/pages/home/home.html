@@ -1,0 +1,79 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Dashboard
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p style="text-align:center;">
+    <img src="assets/imgs/myapp_1.jpg">
+  </p>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6 class="block-col-menu" (click)="goToProfile()">
+        <div class="home-icon">
+          <i class="fa fa-address-card"></i>
+        </div>
+        <h5 class="home-h5">Profile</h5>
+      </ion-col>
+      <ion-col col-6 class="block-col-menu" (click)="goToCamera()">
+        <div class="home-icon">
+          <i class="fa fa-camera-retro"></i>
+        </div>
+        <h5 class="home-h5">Camera</h5>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6 class="block-col-menu" (click)="goToQrCode()">
+        <div class="home-icon">
+          <i class="fa fa-qrcode"></i>
+        </div>
+        <h5 class="home-h5">QR Code</h5>
+      </ion-col>
+      <ion-col col-6 class="block-col-menu" (click)="goToNews()">
+        <div class="home-icon">
+          <i class="fa fa-newspaper-o"></i>
+        </div>
+        <h5 class="home-h5">News</h5>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6 class="block-col-menu">
+        <div class="home-icon home-disabled">
+          <i class="fa fa-th-list"></i>
+        </div>
+        <h5 class="home-h5 home-disabled">Course</h5>
+      </ion-col>
+      <ion-col col-6 class="block-col-menu" (click)="goToTodos()">
+        <div class="home-icon">
+          <i class="fa fa-list-ol"></i>
+        </div>
+        <h5 class="home-h5">Todos</h5>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6 class="block-col-menu" (click)="goToLogin()">
+        <div class="home-icon">
+          <i class="fa fa-sign-in"></i>
+        </div>
+        <h5 class="home-h5">Login (Ex)</h5>
+      </ion-col>
+      <ion-col col-6 class="block-col-menu" (click)="goToRegister()">
+        <div class="home-icon">
+          <i class="fa fa-registered"></i>
+        </div>
+        <h5 class="home-h5">Register (Ex)</h5>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6 class="block-col-menu" (click)="goToYoutube()">
+        <div class="home-icon">
+          <i class="fa fa-youtube-square" aria-hidden="true"></i>
+        </div>
+        <h5 class="home-h5">Youtube</h5>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

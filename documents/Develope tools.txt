@@ -1,0 +1,14 @@
+﻿1. ติดตั้ง Visual Studio Code และติดตั้ง Extension
+2. ติดตั้ง git scm
+3. ติดตั้ง Nodejs : node -v
+---------------------------------------
+4. ติดตั้ง java jdk : https://ninite.com/ EX: echo %JAVA_HOME% 
+5. ติดตั้ง Android Studio
+---------------------------------------
+npm install -g ionic
+npm install -g cordova
+
+ionic start yruHybridWorkshop2018 blank
+ionic serve
+
+ionic g page pagename --no-module

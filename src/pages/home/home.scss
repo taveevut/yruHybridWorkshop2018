@@ -1,0 +1,21 @@
+page-home {
+  @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+  .toolbar-title{
+    font-family: 'PT Sans', sans-serif;
+  }
+  .home-icon {
+    margin: 0 auto;
+    color: #1a4605;
+    line-height: 50px;
+    font-size: 45px;
+    text-align: center
+  }
+  .home-h5 {
+    margin: 2px 0 10px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+  }
+  .home-disabled, .home-disabled *{
+    color: #9e9e9e !important;
+  }
+}
